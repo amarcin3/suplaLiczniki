@@ -1,0 +1,49 @@
+@import '@fontsource/fira-mono';
+
+:root {
+    --font-body: 'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-mono: 'Fira Mono', monospace;
+    --gray1: #f5f5f7;
+    --gray2: #6e6e73;
+    --gray3: #1d1d1f;
+    --gray1hover: #e5e5ea;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-size: 100vw 100vh;
+    font-family: var(--font-body), sans-serif;
+}
+
+.xl {
+    font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+}
+
+.large {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: -0.022em;
+    color: var(--gray3);
+}
+
+.small {
+    font-size: 21px;
+    line-height: 1.1904761905;
+    font-weight: 600;
+    letter-spacing: .011em;
+    color: var(--gray2);
+}
+
+.xs {
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+    letter-spacing: .031em;
+    color: var(--gray2);
+}
