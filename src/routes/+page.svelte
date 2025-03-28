@@ -12,9 +12,7 @@
 		<a href="/szczegoly"><button>Szczegóły</button></a>
 		<a href="/ustawienia"><button>Ustawienia</button></a>
 	</div>
-
 </section>
 
 <style>
-	
 </style>

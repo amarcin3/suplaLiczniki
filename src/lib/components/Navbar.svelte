@@ -19,7 +19,7 @@
 		{ label: 'Główna', href: '/', regex: '\\/(?!.)' },
 		{ label: 'Zestawienie', href: '/zestawienie', regex: '/zestawienie' },
 		{ label: 'Szczegóły', href: '/szczegoly', regex: '/szczegoly' },
-		{ label: 'Ustawienia', href: '/ustawienia', regex: '/ustawienia' },
+		{ label: 'Ustawienia', href: '/ustawienia', regex: '/ustawienia' }
 	];
 
 	// Mobile menu click event handler
@@ -54,11 +54,12 @@
 
 <nav class={showMobileMenu ? ' mobile' : ''}>
 	<div class="inner">
-		<button aria-label="Toggle navigation"
+		<button
+			aria-label="Toggle navigation"
 			on:click={handleMobileIconClick}
 			class={`mobile-icon${showMobileMenu ? ' active' : ''}`}
 		>
-			<span class="middle-line" ></span>
+			<span class="middle-line"></span>
 		</button>
 
 		<ul class={`navbar-list${showMobileMenu ? ' mobile' : ''}`}>

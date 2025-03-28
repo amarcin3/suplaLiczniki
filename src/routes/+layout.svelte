@@ -7,7 +7,7 @@
 </script>
 
 <div class="app">
-	<Navbar spinning={!!navigating.to}/>
+	<Navbar spinning={!!navigating.to} />
 
 	<main>
 		{@render children()}
@@ -30,5 +30,4 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
-
 </style>
