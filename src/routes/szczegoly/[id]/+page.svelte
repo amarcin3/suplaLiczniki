@@ -303,7 +303,7 @@
         position: relative;
         background: var(--gray1);
         border-radius: 9px;
-        overflow: scroll;
+        overflow: auto;
     }
 
 
