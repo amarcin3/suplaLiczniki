@@ -16,7 +16,7 @@
             </div>
             <div class="input">
                 <label for="">Body:</label>
-                <textarea name="body" rows="6" value="" />
+                <textarea name="body" rows="6" value=""></textarea>
             </div>
             <button type="submit">Send</button>
         </form>
